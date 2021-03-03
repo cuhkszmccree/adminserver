@@ -10,6 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class AdminserverApplication {
 
     public static void main(String[] args) {
+        System.out.println("adminserver_start");
         SpringApplication.run(AdminserverApplication.class, args);
     }
 
